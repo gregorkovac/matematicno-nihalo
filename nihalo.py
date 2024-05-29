@@ -67,4 +67,4 @@ def nihalo(l, t, theta0, dtheta0, n, return_trace=False):
     if return_trace:
         return theta_all, dtheta_all
     
-    return theta[0]
+    return theta
