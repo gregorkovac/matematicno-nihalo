@@ -35,6 +35,8 @@ Izhod:
     (np.array, np.array) ... sled vseh vrednosti theta in dtheta
 """
 def nihalo(l, t, theta0, dtheta0, n, return_trace=False):
+    assert(n > 0)
+
     # Definiramo gravitacijski pospešek
     g = 9.80665
     
